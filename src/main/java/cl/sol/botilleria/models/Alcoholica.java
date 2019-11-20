@@ -35,7 +35,7 @@ public class Alcoholica extends Liquido {
         this.gradoAlcoholico = gradoAlcoholico;
     }
 
-    public void getTipo(String tipo) {
+    public void setTipo(String tipo) {
         this.tipo = tipo;
     }
 }

@@ -13,10 +13,10 @@ public class Fantasia extends Liquido {
 
     private String sabor;
 
-    Fantasia() {
+    public Fantasia() {
     }
 
-    Fantasia(String codigo, String nombre, String fabricante, int cantidad, int precioNeto, int capacidad, String sabor) {
+    public Fantasia(String codigo, String nombre, String fabricante, int cantidad, int precioNeto, int capacidad, String sabor) {
         super(codigo, nombre, fabricante, cantidad, precioNeto, capacidad);
         this.sabor = sabor;
     }
