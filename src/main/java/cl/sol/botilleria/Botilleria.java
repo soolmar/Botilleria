@@ -10,4 +10,16 @@ package cl.sol.botilleria;
  * @author Sol
  */
 public class Botilleria {
+    public static void main() {
+        System.out.println("Probando la boti...");
+        Botilleria b = new Botilleria();
+    }
+    
+    public Botilleria() {
+    }
+    
+    public void ingresarBebidaAlcoholica() {
+        // ...
+    }
+    
 }
