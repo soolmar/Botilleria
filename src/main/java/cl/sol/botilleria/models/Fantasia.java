@@ -9,20 +9,22 @@ package cl.sol.botilleria.models;
  *
  * @author puje
  */
-public class Fantasia extends Liquido{
+public class Fantasia extends Liquido {
+
     private String sabor;
-    
-    Fantasia() {}
-    
+
+    Fantasia() {
+    }
+
     Fantasia(String codigo, String nombre, String fabricante, int cantidad, int precioNeto, int capacidad, String sabor) {
         super(codigo, nombre, fabricante, cantidad, precioNeto, capacidad);
         this.sabor = sabor;
     }
-    
+
     public String getSabor() {
         return this.sabor;
     }
-    
+
     public void setSabor(String sabor) {
         this.sabor = sabor;
     }
